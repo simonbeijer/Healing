@@ -29,13 +29,18 @@ function Home() {
             </Link>
           </li>
           <li className="nav-item">
+            <Link onClick={toggleExpand} className="nav-link" to="healing">
+              Healing
+            </Link>
+          </li>
+          <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="contact">
               Kontakta
             </Link>
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="about">
-              Om
+              Om oss
             </Link>
           </li>
         </ul>

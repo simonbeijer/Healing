@@ -7,16 +7,28 @@ function Contact() {
       <div className="row">
         <div className="text-center">
           <div className="col-8 mx-auto">
-            <h1>Själsharmoni</h1>
+            <h1>KONTAKTA</h1>
             <div className="col-3 mx-auto"></div>
-            <p>Vill du kontakta Johan?</p>
-            <p>Tele: 076-0100928</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repudiandae optio eveniet facilis error reiciendis quas molestias
-              culpa aliquid quo tenetur, dolore, quis itaque eius ratione ea
-              iusto omnis fugiat recusandae.
-            </p>
+            <p>Vill du kontakta Johan eller Marie?</p>
+            <div
+              style={{
+                display: "flex",
+                justifyContent: "space-evenly",
+                alignItems: "center",
+              }}
+            >
+              <div>
+                <h3>Johan</h3>
+                <p>Tele: 076-0100928</p>
+                <p>Mail: johan_79@live.se</p>
+              </div>
+              <div>
+                <h3>Marie</h3>
+                <p>Tele: 073-0969011</p>
+                <p>Mail: marie.ramberg@outlook.com</p>
+              </div>
+            </div>
+
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae optio eveniet facilis error reiciendis quas molestias

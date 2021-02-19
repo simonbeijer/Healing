@@ -3,6 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "./carousel.scss";
 import road from "../../assets/road.jpeg";
 import hands from "../../assets/hands.jpeg";
+import logo from "../../assets/logo.JPG";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -30,13 +31,13 @@ function ControlledCarousel() {
             alt="Second slide"
           />
         </Carousel.Item>
-        {/* <Carousel.Item>
+        <Carousel.Item>
           <img
             className="d-block img-fluid w-100 "
-            src="https://images.unsplash.com/photo-1554132273-851fc5eb4a2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1767&q=80"
+            src={logo}
             alt="Third slide"
           />
-        </Carousel.Item> */}
+        </Carousel.Item>
       </Carousel>
       {/* </div> */}
     </div>

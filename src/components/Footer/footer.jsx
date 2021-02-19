@@ -3,7 +3,7 @@ import "./footer.scss";
 
 function Footer() {
   return (
-    <footer className="App-footer gradientPink">
+    <footer className="App-footer gradientPink footer">
       <div className="container-fluid">
         <div className="row">
           <div className="footerCols col-xs-12 col-sm-4 ">

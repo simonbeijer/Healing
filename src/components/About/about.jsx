@@ -1,5 +1,7 @@
 import React from "react";
 import "./about.scss";
+import Johan from "../../assets/Johan.png";
+import Marie from "../../assets/Marie.png";
 
 function About() {
   return (
@@ -7,37 +9,62 @@ function About() {
       <div className="row">
         <div className="text-center">
           <div className="col-8 mx-auto">
-            <h1>Själsharmoni</h1>
+            <h1>Om oss</h1>
             <div className="col-3 mx-auto"></div>
+            <h3>Johan</h3>
+            <img
+              src={Johan}
+              alt="Johan är ett medium från Jönköping som kan hjälpa dig med andlig healing och vägledning"
+              className="marginBottom"
+            ></img>
             <p>
-              VAD ÄR HEALING Andlig healing Energi finns i överflöd runt omkring
-              oss. Det finurliga med healing är att energin fångas upp och
-              används där det behövs just nu. Healing betyder läkande genom
-              energitillförsel. Som healer är jag kanalen, transformatorn, för
-              denna energitillförsel.
+              Jag heter Johan och är 40 år gammal. Bor i en lite större stad med
+              min familj som består av min fru, våra två söner och en hund.För
+              två år sen behövde jag en förändring i mitt liv av olika orsaker
+              och började då att intressera mig för det spirituella. Insåg
+              ganska snabbt att det har funnits med mig hela tiden. Idag ser jag
+              på mig och världen med helt andra ögon.Jag har i hela mitt vuxna
+              liv varit mån om andra människor och tycker att det är väldigt
+              stimulerande att kunna göra det genom min healing och mitt
+              mediumskap.
             </p>
             <p>
-              Jag hämtar in av universums överflöd och tack vare denna
-              energi kan din kropp få hjälp till läkning oavsett om du har
-              fysiska, känslomässiga, mentala eller själsliga obalanser. Jag som
-              healer är bara kanalen, jag påverkar inte vart energin tar vägen
-              och på vilket sätt du kommer att märka det för healingenergin är
-              den visaste av alla.
+              Min uppgift som ljusbärare är att hjälpa andra till förändring och
+              förståelse.Förr strävade jag efter materiella saker, idag har jag
+              insett att det är viktigt för mig att jag och mina medmänniskor
+              mår bra. Hälsa, lycka och meningsfullhet står överst på min
+              önskelista nu.Mitt intresse är att vara ute i skogen där jag
+              hämtar min energi. Ibland får jag med mig min fru på en
+              långpromenad men oftast har jag med mig min hund som min
+              följeslagare.
+            </p>
+            <div className="col-3 mx-auto"></div>
+            <h3>Marie</h3>
+            <img
+              src={Marie}
+              alt="Marie är ett medium som kan hjälpa dig och djur med andlig healing samt"
+              className="marginBottom"
+            ></img>
+            <p>
+              Sedan barnsben har jag levt med andra sidan.   Jag hade inte en
+              låtsasvän, mina vänner var verkliga och min mamma förnekade
+              aldrig. En dag sa hon till mej att jag var speciell, jag berättade
+              alltid i förväg vad som skulle hända. Då var jag 12 år   När jag
+              var 19 år sa min svärmor att hon väntat på mej, hon var från
+              Österrike och bröt på Tyska. Hon var synsk och gav mej min första
+              tarotlek.   Snart hade jag många som kom till mej för att spå sig
+              och det var knappt jag trodde på det själv när jag prickade rätt
+              och fick bekräftelse.
             </p>
             <p>
-              Det finns många olika sorters healing där healern gör på olika
-              sätt men slutresultatet är i princip det samma. Jag ger andlig
-              healing och får då hjälp av min guide att ge dig där du behöver
-              det bäst. Den ena healingsessionen är aldrig den andra lik, varje
-              är unik. Det är det som gör det så fascinerande.
-            </p>
-            <p>
-              Healing är ingen quick fix, det kan behövas flera sessioner för
-              att uppnå ett varaktigt resultat. Healingen ger dig precis så
-              mycket som du kan ta hand om varje gång. Om du upplever att du har
-              fått för mycket så kan du be energin att dämpa sig. Viktigt att
-              tänka på efter att ha tagit emot healing är att dricka vatten de
-              närmaste dagarna för att hjälpa kroppen i dess utrensningsprocess.
+              Dock var det tungt många gånger och jag förbannade ”gåvan”   Jag
+              har varit periodare, då jag i perioder inte ville veta.   Idag har
+              jag gått kurser och varit iväg på behövliga retreater som gjort
+              mej lugnare och lärt mej stänga av.   Idag ser jag tecken och har
+              en helt annan förståelse för varför jag blev ett verktyg för
+              andevärlden, det känns så fint att få hjälpa andra att må bättre,
+              och få vägledning.   Jag jobbar i ljuset av min kraft, där
+              kärleken är störst.
             </p>
           </div>
         </div>
