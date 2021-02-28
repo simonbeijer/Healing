@@ -3,7 +3,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "./carousel.scss";
 import road from "../../assets/road.jpeg";
 import hands from "../../assets/hands.jpeg";
-import logo from "../../assets/logo.JPG";
+
 import oneline from "../../assets/oneline.png";
 
 function ControlledCarousel() {

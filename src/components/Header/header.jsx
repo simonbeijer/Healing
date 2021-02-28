@@ -27,27 +27,27 @@ function Home() {
         <ul className="navbar-nav ml-auto ">
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="/">
-              Hem
+              HEM
             </Link>
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="products">
-              Tjänster
+              TJÄNSTER
             </Link>
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="healing">
-              Healing
+              HEALING
             </Link>
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="contact">
-              Kontakta
+              KONTAKTA
             </Link>
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="about">
-              Om oss
+              OM OSS
             </Link>
           </li>
         </ul>

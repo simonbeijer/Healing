@@ -9,7 +9,7 @@ function Footer() {
           <div className="footerCols col-xs-12 col-sm-4 ">
             <a
               rel="noopener noreferrer"
-              href="https://www.facebook.com/Middle-Lake-Industries-104515494669235/"
+              href="https://www.google.se"
               target="_blank"
             >
               <i className="fa fa-facebook-square"></i> Facebook
@@ -18,7 +18,7 @@ function Footer() {
           <div className="footerCols col-xs-12 col-sm-4">
             <a
               rel="noopener noreferrer"
-              href="https://instagram.com/middle_lake_industries?igshid=hlydb1g4s71n"
+              href="https://www.google.se"
               target="_blank"
             >
               <i className="fa fa-instagram"></i> Instagram
