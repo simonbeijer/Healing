@@ -7,7 +7,7 @@ function Contact() {
       <div className="row">
         <div className="text-center">
           <div className="col-8 mx-auto">
-            <h1>KONTAKTA</h1>
+            <h1>Kontakta</h1>
             <div className="col-3 mx-auto"></div>
             <p>Vill du kontakta Johan eller Marie?</p>
             <div

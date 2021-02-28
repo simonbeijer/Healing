@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./header.scss";
 import { Link } from "react-router-dom";
 import logo from "../../assets/heart.png";
+// import logo from "../../assets/lotus.png";
+
 function Home() {
   const [expanded, setExpanded] = useState(false);
 
@@ -11,7 +13,12 @@ function Home() {
   return (
     <nav className="navbar navbar-expand-md navbar-light fixed-top gradientBlue">
       <Link className="navbar-brand" to="/">
-        <img src={logo} alt="mli-logo" className="logo" />
+        <img
+          style={{ paddingLeft: 16 }}
+          src={logo}
+          alt="mli-logo"
+          className="logo"
+        />
       </Link>
       <button className="navbar-toggler" type="button" onClick={toggleExpand}>
         <span className="navbar-toggler-icon"></span>

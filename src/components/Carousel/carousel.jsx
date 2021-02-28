@@ -4,6 +4,7 @@ import "./carousel.scss";
 import road from "../../assets/road.jpeg";
 import hands from "../../assets/hands.jpeg";
 import logo from "../../assets/logo.JPG";
+import oneline from "../../assets/oneline.png";
 
 function ControlledCarousel() {
   const [index, setIndex] = useState(0);
@@ -34,7 +35,7 @@ function ControlledCarousel() {
         <Carousel.Item>
           <img
             className="d-block img-fluid w-100 "
-            src={logo}
+            src={oneline}
             alt="Third slide"
           />
         </Carousel.Item>

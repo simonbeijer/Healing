@@ -13,7 +13,7 @@ import SideLogo from "./components/SideLogo/sidelogo";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="/MLI">
+      <BrowserRouter basename="">
         <Header />
         <SideLogo />
         <Switch>
