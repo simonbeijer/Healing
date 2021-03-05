@@ -13,7 +13,7 @@ import SideLogo from "./components/SideLogo/sidelogo";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename="">
+      <BrowserRouter>
         <Header />
         <SideLogo />
         <Switch>
@@ -21,7 +21,7 @@ function App() {
           <Route path="/products" component={Products} />
           <Route path="/contact" component={Contact} />
           <Route path="/healing" component={Healing} />
-          <Route path="/" component={Home} />
+          <Route exact path="/" component={Home} />
         </Switch>
         <Footer />
       </BrowserRouter>
