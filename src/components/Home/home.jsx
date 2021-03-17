@@ -1,8 +1,11 @@
 import React from "react";
 import "./home.scss";
 import ControlledCarousel from "../Carousel/carousel";
+import OneLine from "../../assets/oneline.png";
+import useWindowDimensions from "../../sizeHook";
 
 function Home() {
+  const { height, width } = useWindowDimensions();
   return (
     <main className="App-home container-fluid">
       <div className="row">
@@ -16,7 +19,17 @@ function Home() {
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae optio
             </p>
-            <ControlledCarousel className="carousel" />
+            {console.log(width)}
+            {width > 600 ? (
+              <ControlledCarousel className="carousel" />
+            ) : (
+              <img
+                src={OneLine}
+                alt=""
+                style={{ width: "340px", height: "200px" }}
+              ></img>
+            )}
+
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Repudiandae optio eveniet facilis error reiciendis quas molestias

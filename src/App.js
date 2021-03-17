@@ -6,7 +6,6 @@ import About from "./components/About/about";
 import Products from "./components/Products/products";
 import Contact from "./components/Contact/contact";
 import Healing from "./components/Healing/healing";
-
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import SideLogo from "./components/SideLogo/sidelogo";
 
