@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.scss";
 import { Link } from "react-router-dom";
-import logo from "../../assets/SJÄLSHARMONI_TEXT@2x.png";
+import newLogo from "./SJÄLSHARMONI_TEXT@2x.png";
 function Home() {
   const [expanded, setExpanded] = useState(false);
 
@@ -13,8 +13,8 @@ function Home() {
       <Link className="navbar-brand" to="/">
         <img
           style={{ paddingLeft: 16 }}
-          src={logo}
-          alt="mli-logo"
+          src={newLogo}
+          alt="logo"
           className="logo"
         />
       </Link>
