@@ -3,7 +3,7 @@ import "./products.scss";
 import useWindowDimensions from "../../sizeHook";
 
 function Products() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <main className="App-products container-fluid">

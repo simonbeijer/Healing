@@ -3,7 +3,7 @@ import "./healing.scss";
 import useWindowDimensions from "../../sizeHook";
 
 function Contact() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
   return (
     <main className="App-healing container-fluid">
       <div className="row">

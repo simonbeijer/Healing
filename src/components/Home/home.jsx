@@ -5,7 +5,7 @@ import OneLine from "../../assets/oneline.png";
 import useWindowDimensions from "../../sizeHook";
 
 function Home() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <main className="App-home container-fluid">

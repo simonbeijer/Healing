@@ -5,7 +5,7 @@ import Marie from "../../assets/Marie2.png";
 import useWindowDimensions from "../../sizeHook";
 
 function About() {
-  const { height, width } = useWindowDimensions();
+  const { width } = useWindowDimensions();
 
   return (
     <main className="App-about container-fluid">
