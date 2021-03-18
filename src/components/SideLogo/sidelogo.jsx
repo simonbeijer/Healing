@@ -1,13 +1,13 @@
 import React from "react";
 import "./sidelogo.scss";
-import logo from "../../assets/logo.JPG";
+import sidelogo from "../../assets/SJÄLSHARMONI_EMBLEM@4x.png";
 
 function SideLogo() {
   return (
     <img
       className="sideLogo"
       style={{ width: "15%" }}
-      src={logo}
+      src={sidelogo}
       alt="Välkommen till ett andligt center i Jönköping"
     />
   );

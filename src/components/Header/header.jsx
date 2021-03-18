@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./header.scss";
 import { Link } from "react-router-dom";
-import logo from "../../assets/heart.png";
+import logo from "../../assets/SJÄLSHARMINI_TEXT@2x.png";
 // import logo from "../../assets/lotus.png";
 
 function Home() {
