@@ -7,5 +7,21 @@
 }
 ul {
   line-height: 2rem;
-  font-size: calc(8px + 2vmin);
+  font-size: calc(8px + 1.6vmin);
+}
+a.nav-link {
+  color: grey;
+  &:hover {
+    color: black;
+    border-bottom: solid 1px black;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  a.nav-link {
+    margin-left: 1rem;
+    &:hover {
+      border-bottom: none;
+    }
+  }
 }

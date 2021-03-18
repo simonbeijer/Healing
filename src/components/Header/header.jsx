@@ -41,13 +41,13 @@ function Home() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link onClick={toggleExpand} className="nav-link" to="contact">
-              KONTAKTA
+            <Link onClick={toggleExpand} className="nav-link" to="about">
+              OM OSS
             </Link>
           </li>
           <li className="nav-item">
-            <Link onClick={toggleExpand} className="nav-link" to="about">
-              OM OSS
+            <Link onClick={toggleExpand} className="nav-link" to="contact">
+              KONTAKTA
             </Link>
           </li>
         </ul>
