@@ -35,7 +35,7 @@ h1 {
 }
 
 .gradientBG {
-  background-color: #fbd1fb;
+  background-color: #e4b0ae;
   background-image: linear-gradient(
     315deg,
     #fbd1fb 6%,
@@ -44,15 +44,15 @@ h1 {
     #c2f5ff 96%
   );
 }
-.gradientPink {
-  background-color: #fbd1fb;
+.gradientRed {
+  background-color: #ca8e8e;
   background-image: linear-gradient(
     355deg,
-    #fbd1fb 20%,
-    #ffffff 70%,
+    #cfafaf 20%,
+    #d6cdcd 70%,
     #ffffff 100%
   );
 }
-.gradientBlue {
-  background-image: linear-gradient(350deg, #ffffff 70%, #c2f5ff 100%);
+.gradientGreen {
+  background-image: linear-gradient(350deg, #fcfcfc 70%, #c5d1be 100%);
 }

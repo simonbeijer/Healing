@@ -11,7 +11,7 @@ function Home() {
   const show = expanded ? "show" : " ";
 
   return (
-    <nav className="navbar navbar-expand-md navbar-light fixed-top gradientBlue">
+    <nav className="navbar navbar-expand-md navbar-light fixed-top gradientGreen">
       <Link className="navbar-brand" to="/">
         <img
           style={{ paddingLeft: 16 }}
