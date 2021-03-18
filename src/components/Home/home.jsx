@@ -14,11 +14,7 @@ function Home() {
             <h1 style={{ textAlign: "center", marginTop: "2rem" }}>
               SJÄLSHARMONI
             </h1>
-            <p>Hejsan och välkommen till Själsharmoni!</p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repudiandae optio
-            </p>
+            <p>Välkommen till Själsharmoni!</p>
             {console.log(width)}
             {width > 600 ? (
               <ControlledCarousel className="carousel" />
@@ -29,23 +25,23 @@ function Home() {
                 style={{ width: "340px", height: "200px" }}
               ></img>
             )}
-
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repudiandae optio eveniet facilis error reiciendis quas molestias
-              culpa aliquid quo tenetur, dolore, quis itaque eius ratione ea
-              iusto omnis fugiat recusandae.
+              Att må bra och känna harmoni i själen är det många som inte gör i
+              dessa stressstider vi lever i. Man ska hinna så mycket som möjligt
+              på så kort tid som möjligt.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Repudiandae optio eveniet
-              </p>
-              Repudiandae optio eveniet facilis error reiciendis quas molestias
-              culpa aliquid quo tenetur, dolore, quis itaque eius ratione ea
-              iusto omnis fugiat recusandae.
+              Tid är det enda vi inte styr över, nej men vi styr över hur vi ska
+              använda vår tid.
             </p>
+            <p>
+              “ Människan offrar hälsan för att tjäna pengar, sedan offrar hon
+              pengar för att få tillbaka hälsan. Hon är så angelägen om sin
+              framtid att hon inte njuter av nuet. Följden blir att hon inte
+              lever i nuet och inte heller i framtiden. Hon lever som om hon
+              aldrig ska dö och sen dör hon utan att någonsin har levt.”
+            </p>
+            <p style={{ textAlign: "right" }}>Dalai Lama</p>
           </div>
         </div>
       </div>
