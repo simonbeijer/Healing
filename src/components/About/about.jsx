@@ -44,11 +44,11 @@ function About() {
                   har jag insett att det är viktigt för mig att jag och mina
                   medmänniskor mår bra. Hälsa, lycka och meningsfullhet står
                   överst på min önskelista nu.
-                  <p>
-                    Mitt intresse är att vara ute i skogen där jag hämtar min
-                    energi. Ibland får jag med mig min fru på en långpromenad
-                    men oftast har jag med mig min hund som min följeslagare.
-                  </p>
+                </p>
+                <p>
+                  Mitt intresse är att vara ute i skogen där jag hämtar min
+                  energi. Ibland får jag med mig min fru på en långpromenad men
+                  oftast har jag med mig min hund som min följeslagare.
                 </p>
               </div>
             </div>
@@ -92,14 +92,14 @@ function About() {
                   kunde lyssna så skulle djur och ägare få en mer nära relation,
                   och mycket missförstånd, rädsla och frustration bytas ut till
                   samförstånd, glädje och kärlek. 
-                  <p>
-                    <br></br>
-                    Att lyssna på sitt inre, att våga lita på sin magkänsla -
-                    visst låter det som ljuv musik.  Boka ett coachade samtal,
-                    vänta inte! 
-                  </p>
-                  <p style={{ textAlign: "right" }}>Välkomna.</p>
+                  <br></br>
                 </p>
+                <p>
+                  Att lyssna på sitt inre, att våga lita på sin magkänsla -
+                  visst låter det som ljuv musik.  Boka ett coachade samtal,
+                  vänta inte! 
+                </p>
+                <p style={{ textAlign: "right" }}>Välkomna.</p>
               </div>
             </div>
           </div>

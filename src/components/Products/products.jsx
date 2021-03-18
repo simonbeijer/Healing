@@ -16,105 +16,115 @@ function Products() {
           >
             <div className={width > 1000 ? "col-5 mx-auto" : "col-8 mx-auto"}>
               <table>
-                <h3 className="topMargin">Johan</h3>
-                <tr>
-                  <th>Tjänst</th>
-                  <th>Pris</th>
-                </tr>
-                <tr>
-                  <td>Vägledning via telefon</td>
-                  <td>500Kr</td>
-                </tr>
-                <tr>
-                  <td>Healing på distans</td>
-                  <td>300Kr</td>
-                </tr>
-                <tr>
-                  <td>Rensning av energier i hus</td>
-                  <td>950Kr</td>
-                </tr>
-                <h3 className="topMargin">Gemensammt</h3>
-                <tr>
-                  <th>Tjänst</th>
-                  <th>Pris</th>
-                </tr>
-                <tr>
-                  <td>Trumhealing</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Trumresor</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Vägledda meditationer</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Storseanser</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Husrensning stor</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Retreater</td>
-                  <td>Kontakta</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <th className="topMargin">Johan</th>
+                  </tr>
+                  <tr>
+                    <th>Tjänst</th>
+                    <th>Pris</th>
+                  </tr>
+                  <tr>
+                    <td>Vägledning via telefon</td>
+                    <td>500Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Healing på distans</td>
+                    <td>300Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Rensning av energier i hus</td>
+                    <td>950Kr</td>
+                  </tr>
+                  <tr>
+                    <th className="topMargin">Gemensammt</th>
+                  </tr>
+                  <tr>
+                    <th>Tjänst</th>
+                    <th>Pris</th>
+                  </tr>
+                  <tr>
+                    <td>Trumhealing</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Trumresor</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Vägledda meditationer</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Storseanser</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Husrensning stor</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Retreater</td>
+                    <td>Kontakta</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
             <div className={width > 1000 ? "col-5 mx-auto" : "col-8 mx-auto"}>
               <table>
-                <h3 className="topMargin">Marie</h3>
-                <tr>
-                  <th>Tjänst</th>
-                  <th>Pris</th>
-                </tr>
-                <tr>
-                  <td>Transhealing via telefon</td>
-                  <td>300Kr</td>
-                </tr>
-                <tr>
-                  <td>Hembesök</td>
-                  <td>850Kr</td>
-                </tr>
-                <tr>
-                  <td>Medial Coaching via telefon</td>
-                  <td>300Kr</td>
-                </tr>
-                <tr>
-                  <td>Medial Coaching hembesök</td>
-                  <td>850Kr</td>
-                </tr>
-                <tr>
-                  <td>Transmedium via telefon</td>
-                  <td>300Kr</td>
-                </tr>
-                <tr>
-                  <td>Transmedium hembesök</td>
-                  <td>850Kr</td>
-                </tr>
-                <tr>
-                  <td>Husrensning</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Djurkommunikation</td>
-                  <td>Kontakta</td>
-                </tr>
-                <tr>
-                  <td>Djurkommunikation</td>
-                  <td>850Kr</td>
-                </tr>
-                <tr>
-                  <td>Sittning med tarot och pendel via telefon</td>
-                  <td>650Kr</td>
-                </tr>
-                <tr>
-                  <td>Sittning med tarot och pendel hembesök</td>
-                  <td>850Kr</td>
-                </tr>
+                <tbody>
+                  <tr>
+                    <th className="topMargin">Marie</th>
+                  </tr>
+                  <tr>
+                    <th>Tjänst</th>
+                    <th>Pris</th>
+                  </tr>
+                  <tr>
+                    <td>Transhealing via telefon</td>
+                    <td>300Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Hembesök</td>
+                    <td>850Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Medial Coaching via telefon</td>
+                    <td>300Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Medial Coaching hembesök</td>
+                    <td>850Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Transmedium via telefon</td>
+                    <td>300Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Transmedium hembesök</td>
+                    <td>850Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Husrensning</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Djurkommunikation</td>
+                    <td>Kontakta</td>
+                  </tr>
+                  <tr>
+                    <td>Djurkommunikation</td>
+                    <td>850Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Sittning med tarot och pendel via telefon</td>
+                    <td>650Kr</td>
+                  </tr>
+                  <tr>
+                    <td>Sittning med tarot och pendel hembesök</td>
+                    <td>850Kr</td>
+                  </tr>
+                </tbody>
               </table>
             </div>
             {/* <p style={{ paddingTop: 46 }}>
