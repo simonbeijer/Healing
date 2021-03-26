@@ -1,10 +1,10 @@
 import React from "react";
 import "./home.scss";
 import ControlledCarousel from "../Carousel/carousel";
-import OneLine from "../../assets/oneline.png";
+import EyeLogo from "../../assets/SJALSHARMONI_EMBLEM_WBG@4xCUT.png";
 import useWindowDimensions from "../../sizeHook";
 
-function Home() {
+function Home(logo) {
   const { width } = useWindowDimensions();
 
   return (
@@ -12,15 +12,16 @@ function Home() {
       <div className="row">
         <div className="text-center">
           <div className="col-12 mx-auto">
-            <h1 style={{ textAlign: "center", marginTop: "2rem" }}>
-              SJÄLSHARMONI
-            </h1>
-            <p>Välkommen till Själsharmoni!</p>
+            <h1>Själsharmoni</h1>
+            {console.log(logo)}
             {width > 600 ? (
-              <ControlledCarousel className="carousel" />
+              <ControlledCarousel
+                style={{ paddingTop: "5rem" }}
+                className="carousel"
+              />
             ) : (
               <img
-                src={OneLine}
+                src={EyeLogo}
                 alt=""
                 style={{ width: "340px", height: "200px" }}
               ></img>

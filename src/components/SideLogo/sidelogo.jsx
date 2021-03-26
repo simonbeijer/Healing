@@ -2,14 +2,17 @@ import React from "react";
 import "./sidelogo.scss";
 import sidelogo from "../../assets/SJÄLSHARMONI_EMBLEM@4x.png";
 
-function SideLogo() {
+function SideLogo(pathName) {
   return (
-    <img
-      className="sideLogo"
-      style={{ width: "15%" }}
-      src={sidelogo}
-      alt="Välkommen till ett andligt center i Jönköping"
-    />
+    <>
+      {console.log(pathName)}
+      <img
+        className="sideLogo"
+        style={{ width: "15%" }}
+        src={sidelogo}
+        alt="Välkommen till ett andligt center i Jönköping"
+      />
+    </>
   );
 }
 

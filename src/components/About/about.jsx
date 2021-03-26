@@ -17,13 +17,12 @@ function About() {
             style={width > 1000 ? { display: "flex" } : { display: "unset" }}
           >
             <div className={width > 1000 ? "col-5 mx-auto" : "col-8 mx-auto"}>
-              <h3>Johan</h3>
               <img
                 src={Johan}
                 alt="Johan är ett medium från Jönköping som kan hjälpa dig med andlig healing och vägledning"
                 className="marginBottom"
               ></img>
-              <p>Jag heter Johan.</p>
+              <h3>Johan</h3>
               <div style={{ textAlign: "left" }}>
                 <p>
                   Jag är 40 år gammal, och bor i en lite större stad med min
@@ -52,15 +51,18 @@ function About() {
                 </p>
               </div>
             </div>
-            <div className={width > 1000 ? "col-5 mx-auto" : "col-8 mx-auto"}>
-              <h3>Marie</h3>
+            <div
+              className={
+                width > 1000 ? "col-5 mx-auto" : "col-8 mx-auto paddingTop"
+              }
+            >
               <img
                 src={Marie}
                 alt="Marie är ett medium som kan hjälpa dig och djur med andlig healing samt"
                 className="marginBottom"
                 style={{ width: "auto", height: "178px" }}
               ></img>
-              <p>Mitt namn är Marie.</p>
+              <h3>Marie</h3>
               <div style={{ textAlign: "left" }}>
                 <p>
                   Det andliga har jag levt med hela mitt mer eller mindre,

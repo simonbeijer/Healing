@@ -1,40 +1,85 @@
 import React from "react";
 import "./contact.scss";
+import useWindowDimensions from "../../sizeHook";
 
 function Contact() {
+  const { width } = useWindowDimensions();
   return (
     <main className="App-contact container-fluid">
-      <div className="row">
-        <div className="text-center">
-          <div className="col-8 mx-auto">
-            <h1>Kontakta</h1>
-            <div className="col-3 mx-auto"></div>
-            <p>Vill du kontakta Johan eller Marie?</p>
-            <div
-              style={{
-                display: "flex",
-                justifyContent: "space-evenly",
-                alignItems: "center",
-              }}
-            >
-              <div>
-                <h3>Johan</h3>
-                <p>Tele: 076-0100928</p>
-                <p>Mail: johan_79@live.se</p>
-              </div>
-              <div>
-                <h3>Marie</h3>
-                <p>Tele: 073-0969011</p>
-                <p>Mail: marie.ramberg@outlook.com</p>
-              </div>
-            </div>
-
+      <div className="col-12 mx-auto">
+        <h1 style={{ textAlign: "center" }}>Kontakta</h1>
+        <p style={{ textAlign: "center", paddingBottom: "1rem" }}>
+          Vill du kontakta Johan eller Marie?
+        </p>
+        <div
+          className="col-10 mx-auto"
+          style={width > 900 ? { display: "flex" } : { display: "unset" }}
+        >
+          <div
+            className={
+              width > 900
+                ? "col-5 mx-auto"
+                : width > 600
+                ? "col-8 mx-auto"
+                : "col-12 mx-auto text-center"
+            }
+          >
+            <h3 style={{ textAlign: "center" }}>Johan</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Repudiandae optio eveniet facilis error reiciendis quas molestias
-              culpa aliquid quo tenetur, dolore, quis itaque eius ratione ea
-              iusto omnis fugiat recusandae.
+              Telefon{" "}
+              <i style={{ fontSize: "1.8rem", fontStyle: "normal" }}>📱</i>
             </p>
+            <a className="borderBottom" href="tel:076-0100928">
+              076-0100928
+            </a>
+            <p>
+              Mail <i style={{ fontSize: "1.8rem", fontStyle: "normal" }}>✉️</i>
+            </p>{" "}
+            <a
+              className="borderBottom"
+              rel="noopener noreferrer"
+              href="mailto:johan_79@live.se"
+              target="_blank"
+            >
+              johan_79@live.se
+            </a>
+          </div>
+          <div
+            className={
+              width > 900
+                ? "col-5 mx-auto"
+                : width > 600
+                ? "col-8 mx-auto"
+                : "col-12 mx-auto text-center"
+            }
+          >
+            <h3
+              style={
+                width > 900
+                  ? { textAlign: "center" }
+                  : { textAlign: "center", marginTop: "1.8rem" }
+              }
+            >
+              Marie
+            </h3>
+            <p>
+              Telefon{" "}
+              <i style={{ fontSize: "1.8rem", fontStyle: "normal" }}>📱</i>
+            </p>
+            <a className="borderBottom" href="tel:073-0969011">
+              073-0969011
+            </a>
+            <p>
+              Mail <i style={{ fontSize: "1.8rem", fontStyle: "normal" }}>✉️</i>
+            </p>
+            <a
+              className="borderBottom"
+              rel="noopener noreferrer"
+              href="mailto:marie.ramberg@outlook.com"
+              target="_blank"
+            >
+              marie.ramberg@outlook.com
+            </a>
           </div>
         </div>
       </div>

@@ -6,4 +6,11 @@
   .marginBottom {
     margin-bottom: 2rem;
   }
+  .paddingTop {
+    padding-top: 2rem;
+  }
+
+  @media screen and (min-width: 100px) {
+    padding-bottom: 10rem;
+  }
 }

@@ -8,8 +8,15 @@ import Contact from "./components/Contact/contact";
 import Healing from "./components/Healing/healing";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import SideLogo from "./components/SideLogo/sidelogo";
-
+import { useReactPath } from "./pathHook";
 function App() {
+  const path = useReactPath();
+  React.useEffect(() => {
+    console.log(path);
+  });
+
+  const displayNone = { display: "none" };
+  const display = { display: "flex" };
   return (
     <div className="App">
       <BrowserRouter>

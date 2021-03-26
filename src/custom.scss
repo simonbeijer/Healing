@@ -1,12 +1,19 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Kumar+One&display=swap");
+// @import "~@fortawesome/fontawesome-free/scss/fontawesome";
+// @import "~@fortawesome/fontawesome-free/scss/<type>";
 .App {
   min-height: 100vh;
   position: relative;
+  padding-bottom: 20rem;
+}
 
-  padding-bottom: 280px;
+@media screen and (max-width: 600px) {
+  .App {
+    padding-bottom: 30rem;
+  }
 }
 
 html,
@@ -31,18 +38,10 @@ h6 {
   font-size: calc(16px + 2vmin);
 }
 h1 {
+  color: #99b9c0;
+  font-family: "Kumar One", cursive;
   font-weight: 600;
-}
-
-.gradientBG {
-  background-color: #e4b0ae;
-  background-image: linear-gradient(
-    315deg,
-    #fbd1fb 6%,
-    #ffffff 25%,
-    #ffffff 75%,
-    #c2f5ff 96%
-  );
+  text-shadow: 2px 2px #0000001a;
 }
 
 .gradientRed {
@@ -50,10 +49,11 @@ h1 {
   background-image: linear-gradient(
     177deg,
     #ffffff 20%,
-    #fcecec 40%,
-    #f5aeae 100%
+    #fcf8ec 40%,
+    #fbefd5 100%
   );
 }
+//url("https://www.transparenttextures.com/patterns/dimension.png")
 .gradientGreen {
-  background-image: linear-gradient(350deg, #fcfcfc 70%, #c5d1be 100%);
+  background-image: linear-gradient(350deg, #fcfcfc 70%, #e0f0e8 100%);
 }

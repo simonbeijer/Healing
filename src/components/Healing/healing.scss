@@ -6,4 +6,7 @@
   h3 {
     font-size: calc(8px + 2vmin);
   }
+  @media screen and (min-width: 100px) {
+    padding-bottom: 10rem;
+  }
 }
