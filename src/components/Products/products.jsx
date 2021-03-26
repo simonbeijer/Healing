@@ -37,13 +37,29 @@ function Products() {
                     <td>500 kr</td>
                   </tr>
                   <tr>
+                    <td>Rensning av energier i hus</td>
+                    <td>950 kr</td>
+                  </tr>
+                  <tr>
                     <td>Healing på distans</td>
                     <td>300 kr</td>
                   </tr>
                   <tr>
-                    <td>Rensning av energier i hus</td>
-                    <td>950 kr</td>
+                    <td>Andlighealing</td>
+                    <td>300 kr</td>
                   </tr>
+                  <tr>
+                    <td>Kristallhealing</td>
+                    <td>300 kr</td>
+                  </tr>
+                  <tr>
+                    <td>Transhealing</td>
+                    <td>300 kr</td>
+                  </tr>
+                  <td style={{ fontStyle: "italic" }}>
+                    I väntan på ny lokal gör Johan endast healing på distans.
+                    Info kommer.{" "}
+                  </td>
                   <tr>
                     <th className="topMargin">Gemensammt</th>
                   </tr>
@@ -140,6 +156,7 @@ function Products() {
                     <td>Sittning med tarot & pendel hembesök</td>
                     <td>850 kr</td>
                   </tr>
+                  <tr></tr>
                 </tbody>
               </table>
             </div>

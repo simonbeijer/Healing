@@ -98,10 +98,8 @@ function About() {
                 </p>
                 <p>
                   Att lyssna på sitt inre, att våga lita på sin magkänsla -
-                  visst låter det som ljuv musik.  Boka ett coachade samtal,
-                  vänta inte! 
+                  visst låter det som ljuv musik.
                 </p>
-                <p style={{ textAlign: "right" }}>Välkomna.</p>
               </div>
             </div>
           </div>
