@@ -15,8 +15,6 @@ function App() {
     console.log(path);
   });
 
-  const displayNone = { display: "none" };
-  const display = { display: "flex" };
   return (
     <div className="App">
       <BrowserRouter>
