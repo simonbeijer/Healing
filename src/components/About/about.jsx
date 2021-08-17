@@ -1,7 +1,6 @@
 import React from "react";
 import "./about.scss";
 import Johan from "../../assets/Johan.png";
-import Marie from "../../assets/Marie2.png";
 import useWindowDimensions from "../../sizeHook";
 
 function About() {
