@@ -18,7 +18,7 @@ function Products() {
               className={
                 width > 1000
                   ? "col-6 mx-auto"
-                  : width < 600
+                  : width < 400
                   ? "col-12 mx-auto"
                   : "col-10 mx-auto"
               }
@@ -33,7 +33,7 @@ function Products() {
                     <th>Pris</th>
                   </tr>
                   <tr>
-                    <td>Vägledning via telefon</td>
+                    <td>Medial vägledning via telefon</td>
                     <td>500 kr</td>
                   </tr>
                   <tr>
@@ -42,127 +42,32 @@ function Products() {
                   </tr>
                   <tr>
                     <td>Healing på distans</td>
-                    <td>300 kr</td>
+                    <td>500 kr</td>
                   </tr>
                   <tr>
                     <td>Andlighealing</td>
-                    <td>300 kr</td>
+                    <td>500 kr</td>
                   </tr>
                   <tr>
                     <td>Kristallhealing</td>
-                    <td>300 kr</td>
+                    <td>500 kr</td>
                   </tr>
                   <tr>
                     <td>Transhealing</td>
-                    <td>300 kr</td>
+                    <td>500 kr</td>
+                  </tr>
+                  <tr style={{ fontStyle: "italic" }}>
+                    I väntan på ny lokal gör Johan endast healing på distans.
+                    Info kommer.
                   </tr>
                   <td style={{ fontStyle: "italic" }}>
-                    I väntan på ny lokal gör Johan endast healing på distans.
-                    Info kommer.{" "}
+                Det tillkommer 18Kr per mil
+                vid resor utanför Jönköping.{" "}
                   </td>
-                  <tr>
-                    <th className="topMargin">Gemensammt</th>
-                  </tr>
-                  <tr>
-                    <th>Tjänst</th>
-                    <th>Pris</th>
-                  </tr>
-                  <tr>
-                    <td>Trumhealing</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Trumresor</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Vägledda meditationer</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Storseanser</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Husrensning stor</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Retreater</td>
-                    <td>Kontakta</td>
-                  </tr>
                 </tbody>
               </table>
             </div>
-            <div
-              className={
-                width > 1000
-                  ? "col-6 mx-auto"
-                  : width < 600
-                  ? "col-12 mx-auto"
-                  : "col-10 mx-auto"
-              }
-            >
-              <table style={{ fontSize: "120%", minWidth: "100%" }}>
-                <tbody>
-                  <tr>
-                    <th className="topMargin">Marie</th>
-                  </tr>
-                  <tr>
-                    <th>Tjänst</th>
-                    <th>Pris</th>
-                  </tr>
-                  <tr>
-                    <td>Transhealing via telefon</td>
-                    <td>300 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Hembesök</td>
-                    <td>850 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Medial Coaching via telefon</td>
-                    <td>300 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Medial Coaching hembesök</td>
-                    <td>850 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Transmedium via telefon</td>
-                    <td>300 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Transmedium hembesök</td>
-                    <td>850 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Husrensning</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Djurkommunikation ett djur</td>
-                    <td>850 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Djurkommunikation fler djur</td>
-                    <td>Kontakta</td>
-                  </tr>
-                  <tr>
-                    <td>Sittning med tarot & pendel via telefon</td>
-                    <td>650 kr</td>
-                  </tr>
-                  <tr>
-                    <td>Sittning med tarot & pendel hembesök</td>
-                    <td>850 kr</td>
-                  </tr>
-                  <tr></tr>
-                </tbody>
-              </table>
-            </div>
-            {/* <p style={{ paddingTop: 46 }}>
-            Vid hembesök kan reseersättning erfordras, fråga gärna vid bokning.
-          </p> */}
+
           </div>
         </div>
       </div>

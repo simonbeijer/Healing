@@ -12,8 +12,7 @@ function Home(logo) {
       <div className="row">
         <div className="text-center">
           <div className="col-12 mx-auto">
-            <h1>Själsharmoni</h1>
-            {console.log(logo)}
+            <h1 style={width > 900 ? {fontSize: "calc(16px + 2vmin)"} : {fontSize: "calc(14px + 2vmin)"}}>Välkommen till Själens fönster</h1>
             {width > 600 ? (
               <ControlledCarousel
                 style={{ paddingTop: "5rem" }}

@@ -12,12 +12,17 @@ function Home() {
   return (
     <nav className="navbar navbar-expand-md navbar-light fixed-top gradientGreen">
       <Link className="navbar-brand" to="/">
-        <img
+        <div
           style={{ paddingLeft: 16 }}
-          src={newLogo}
-          alt="logo"
+          
           className="logo"
-        />
+          >
+          <p style={{  color: "#99b9c0",
+ 
+                fontFamily: "Kumar One , cursive",
+              fontWeight: "600",
+              textShadow: "2px 2px #0000001a"}}>Själens fönster</p>
+        </div>
       </Link>
       <button className="navbar-toggler" type="button" onClick={toggleExpand}>
         <span className="navbar-toggler-icon"></span>
@@ -41,7 +46,7 @@ function Home() {
           </li>
           <li className="nav-item">
             <Link onClick={toggleExpand} className="nav-link" to="about">
-              OM OSS
+              OM MIG
             </Link>
           </li>
           <li className="nav-item">
