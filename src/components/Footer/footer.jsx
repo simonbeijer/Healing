@@ -37,7 +37,7 @@ function Footer() {
       </div>
 
       <div className="copy d-flex align-items-center justify-content-center">
-        <h6>Själsharmoni &copy;</h6>
+        <h6>Själsfönster &copy;</h6>
       </div>
     </footer>
   );
