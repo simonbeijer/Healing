@@ -34,7 +34,7 @@ function Products() {
                   </tr>
                   <tr>
                     <td>Medial vägledning via telefon</td>
-                    <td>500 kr</td>
+                    <td>550 kr</td>
                   </tr>
                   <tr>
                     <td>Rensning av energier i hus</td>
@@ -42,19 +42,19 @@ function Products() {
                   </tr>
                   <tr>
                     <td>Healing på distans</td>
-                    <td>500 kr</td>
+                    <td>550 kr</td>
                   </tr>
                   <tr>
                     <td>Andlighealing</td>
-                    <td>500 kr</td>
+                    <td>550 kr</td>
                   </tr>
                   <tr>
                     <td>Kristallhealing</td>
-                    <td>500 kr</td>
+                    <td>550 kr</td>
                   </tr>
                   <tr>
                     <td>Transhealing</td>
-                    <td>500 kr</td>
+                    <td>550 kr</td>
                   </tr>
                   <tr style={{ fontStyle: "italic" }}>
                     I väntan på ny lokal gör Johan endast healing på distans.
